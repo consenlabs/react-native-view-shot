@@ -4,7 +4,11 @@
 #import "UIView+React.h"
 #import "RCTUtils.h"
 #import "RCTConvert.h"
+#import "RCTScrollView.h"
 #import "RCTUIManager.h"
+#if __has_include("RCTUIManagerUtils.h")
+#import "RCTUIManagerUtils.h"
+#endif
 #import "RCTBridge.h"
 
 @implementation RNViewShot
